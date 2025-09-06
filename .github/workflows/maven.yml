@@ -39,6 +39,7 @@ jobs:
     - name: gitleaks scan 
       run: gitleaks detect source . -r gitleaks-reports.json -f json 
       
+      
    
 
         
