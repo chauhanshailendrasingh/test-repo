@@ -6,7 +6,7 @@ on:
 
 jobs:
   compile:
-    runs-on: ubuntu:latest
+    runs-on: Agent-1
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
